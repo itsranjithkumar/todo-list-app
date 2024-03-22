@@ -6,7 +6,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect('')
+mongoose.connect('mongodb+srv://ranjithkumarms28:<password>@cluster0.i0hc0zy.mongodb.net/')
 
 
 app.post('/add', (req, res =>{
