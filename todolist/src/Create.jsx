@@ -1,5 +1,6 @@
 import React,{useState} from "react"
-import axio from 'axios'
+
+import axios from "axios"
 
 function Create() {
     const [task, setTask] = useState()
