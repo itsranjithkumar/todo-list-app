@@ -14,6 +14,7 @@
   background-color: black;
   color: white;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 .task {
   display: flex;
@@ -30,6 +31,11 @@
 .checkbox {
   display: flex;
   align-items: center;
+}
+
+.line_throught{
+  text-decoration: line-through;
+
 }
 .checkbox.icons{
   margin-right: 5px;
